@@ -513,4 +513,5 @@ print(resumo[order(resumo$MAE), ])
 
 # Salva i risultati in CSV
 write.csv(resumo, "confronto_modelli.csv", row.names = FALSE)
+
 cat("\n✓ Risultati salvati in 'confronto_modelli.csv'\n")
